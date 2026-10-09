@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(151, 83, 98);
+}
+h1 {
+    text-align: center;
+    color: rgb(58, 11, 9);
+    font-family: cursive;
+    padding: 20px;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: rgb(228, 172, 172);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  text-align: center;
+  color: rgb(58, 11, 9);
+  font-family: cursive;
+  width: 100%;
+  border-collapse: collapse;
+  padding-top: 20px;    
+  padding-bottom: 20px;
+}
+.links a {
+  color: rgb(58, 11, 9);    
+  text-decoration: none;        
+  font-weight: bold;            
+  transition: all 0.3s ease;
+  font-family: cursive;
+}
+input {
+  display: block; /*Se comporta como um bloco, empilha campos um embaixo do outro*/
+  width: 100%; /*Tenta ocupar toda a largura*/
+  max-width: 400px;/*Impede do campo ficar largo d+*/
+  margin: 10px auto; /*coloca espaço em cima e embaixo do capo e centraliza*/
+  padding: 12px 15px; /*espaçamento interno entre o texto e bordas*/
+  border: 2px solid rgb(58, 11, 9); /*define borda solida*/
+  border-radius: 8px; /*arredonda a borda*/
+  background-color: rgb(255, 245, 245); /*cor dentro do campo*/
+  color: rgb(58, 11, 9);/*cor do texto*/
+  font-family: cursive;/*fonte*/
+  font-size: 14px;/*tamanho*/
+  box-sizing: border-box;/*coma padding e border e evita q o campo passe o tamanho*/
+  outline: none;/*remove borda padrao*/
+}
+input:focus { /*so qnd o usuario clica ou digita*/
+  border-color: rgb(228, 172, 172);/*altera cor da borda na seleção*/
+  box-shadow: 0 0 8px rgba(58, 11, 9, 0.4);/*brilho suave ao redor*/
+}
+button {
+  background-color: rgb(58, 11, 9); /*cor do fundo*/
+  color: rgb(228, 172, 172);/*cor do texto*/
+  font-family: cursive;/*fonte*/
+  font-size: 15px;/*tamanho fonte*/
+  font-weight: bold;/*negrito*/
+  border: none;/*remove borda padrao*/
+  border-radius: 8px;/*arredonda bordas*/
+  padding: 10px 18px;/*espaço interno*/
+  margin: 8px 4px;/*espaçamento externo*/
+  cursor: pointer;/*qnd passa por cima o ponteiro do mouse muda p maozinha*/
+  transition: all 0.3s ease;/*animação qnd o mouse passa pr cima*/
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);/*sombra*/
+}
+button:hover {/*qnd o ponteiro passa por cima do btn*/
+  background-color: rgb(228, 172, 172);/*cor do fundo*/
+  color: rgb(58, 11, 9);/*cor do texto*/
+  transform: translateY(-2px);/*levanta btn*/
+}
+#lista1 {/*resultados*/
+  max-width: 500px;/*limita largura*/
+  margin: 20px auto;/*centraliza e deixa espaço aos elementos em cima e embaixo*/
+  padding: 15px;/*afasta texto p bordas*/
+  background-color: rgb(228, 172, 172);/*cor de fundo*/
+  border-radius: 10px;/*arrendonda bordas painel*/
+  color: rgb(58, 11, 9);/*cor do texto*/
+  font-family: cursive;/*fonte*/
+  text-align: center;/*centraliza*/
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);/*sombra*/
+  line-height: 1.6;/*aumenta espaçamento das linhas*/
+}
+.div_botoes{
+  text-align: center;
+  margin-top: 15px;
+}

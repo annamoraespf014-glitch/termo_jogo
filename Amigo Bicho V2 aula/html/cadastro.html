@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾Amigo Bicho🐾</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script defer src="../js/classeAnimal.js"></script>
+    <script defer src="../js/script.js"></script>
+    <script defer src="../js/scriptCadastro.js"></script>
+</head>
+<body>
+    <div class="links">
+    <a href="cadastro.html">Cadastro</a>
+    <a href="consulta.html">Consulta</a>
+    <a href="index.html">Página Principal</a>
+    </div>
+   
+    <h1>🐾Seja Bem-Vindo ao Amigo Bicho🐾</h1>
+    <div class="container">
+    <div id="animal"></div>
+    <div id="animal2"></div>
+    <div id="animal3"></div>
+    </div>
+
+    <!-- Cadastrar animal -->
+
+    <input type="text" id="idnome" placeholder="Digite o nome do animal">
+    <input type="text" id="idtipo" placeholder="Digite o tipo">
+    <input type="text" id="idraca" placeholder="Digite a raça">
+    <input type="number" id="ididade" placeholder="Digite a idade">
+    <input type="number" id="idpeso" placeholder="Digite o peso">
+    <input type="text" id="idtutor" placeholder="Digite o nome do tutor">
+
+<div class="div_botoes" style="text-align: center; margin-top: 15px;">
+    <button onclick="cadastro()">Cadastrar animal</button>
+    <button onclick="mostrarFicha()">Mostrar Ficha</button>
+    <button onclick="limparCampos()">Limpar Dados</button>
+</div>
+
+<div id="lista1"></div>
+</body>
+</html>
